@@ -1,0 +1,32 @@
+.menu .nav-pills{
+     color: burlywood;
+     background-color: green;
+}
+
+.menu .nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color:  #da5a10;
+}
+
+.nav-link {
+  color: rgb(247, 170, 28);
+}
+
+.bg-kauniyah{
+    background-color: #343a40 !important;
+}
+
+.bg-humie{
+    background-color: #da5a10 !important;
+}
+
+.bg-hampers{
+    background-color: #e7c70f !important;
+}
+
+@media (min-width: 576px) {
+    .kauniyahview , .hampersEO, .humieEO {
+      padding: 4rem 2rem;
+    }
+}
