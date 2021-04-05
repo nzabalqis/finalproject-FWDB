@@ -1,16 +1,16 @@
 .menu .nav-pills{
-     color: burlywood;
-     background-color: green;
+     color: #FCF1D8 ;
+     background-color: #8DBF8B;
 }
 
-.menu .nav-pills .nav-link.active,
+.nav-menu .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color:  #da5a10;
+  background-color:  #F09E56;
 }
 
 .nav-link {
-  color: rgb(247, 170, 28);
+  color: #FCF1D8;
 }
 
 .bg-kauniyah{
@@ -29,4 +29,23 @@
     .kauniyahview , .hampersEO, .humieEO {
       padding: 4rem 2rem;
     }
+}
+
+.footer{
+  background-color: #C5B08B ;
+}
+
+@media (max-width: 768px) {
+  .breadcrumbs .d-flex {
+    display: block !important;
+  }
+}
+
+.header {
+  background: #F09E56;
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 5px 0;
+  /* top: 40px; */
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
