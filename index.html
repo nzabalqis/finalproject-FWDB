@@ -13,6 +13,8 @@
   <link rel="stylesheet" href="css/loading.css" />
   <link rel="stylesheet" href="css/custom.css" />
   <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/icofont/icofont.min.css" />
+  <link rel="stylesheet" href="css/boxicons/boxicons.min.css" />
 </head>
 
 <body onload="loadPage()">
@@ -33,25 +35,28 @@
       <a href="index.html">
         <img src="assets/icons/Logo Kauniyah.jpeg" alt="" height=75 width=75 class="rounded left">
       </a>
-      <nav class="nav-menu d-none d-lg-block">
-        <ul class="nav nav-pills nav-fill">
-          <li class="nav-item">
-            <a class="nav-link active" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Products</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Portofolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About Us</a>
-          </li>
-        </ul>
-      </nav>
+        <nav class="nav-menu d-none d-lg-block">
+          <ul class="nav nav-pills nav-fill">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutus.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="todo.html">To Do</a>
+            </li>
+          </ul>
+        </nav>
     </div>
   </div>
 
@@ -61,10 +66,10 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="assets/image/EOpict.jpg" height=500 width=700 class="d-block w-100" alt="...">
+        <img src="assets/image/EOpict.jpg" height=700 width=1000 class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="assets/image/Formulating.jpg" height=500 width=700 class="d-block w-100" alt="...">
+        <img src="assets/image/Formulating.jpg" height=700 width=100 class="d-block w-100" alt="...">
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -85,15 +90,95 @@
     <img src="assets/image/HumieCananga.jpeg" alt="" height=100 width=100 class="rounded float-left">
     <h1>Humie Essential Oil</h1>
     Essential oil murni sebagai pendukung kesehatan dengan harga terjangkau
+    <button class="btn btn-primary" href="#" role="button" data-toggle="modal" data-target="#modalMore">Promo</button>
   </div>
   <div class="hampersEO bg-hampers text-white">
     <img src="assets/image/HampersHumie.jpeg" alt="" height=100 width=100 class="rounded float-right">
     <h1>Hampers & Souvenir</h1>
     Essential oil murni sebagai pendukung kesehatan dengan harga terjangkau
   </div>
+
+  <!-- =============FOOTER by Karen ================-->
   <div class="footer">
-    <img src="assets/icons/Logo Kauniyah.jpeg" alt="" height=50 width=50 class="float left">
-    <p>Kami adalah agen resmi Kauniyah Oil dan Humie Oil</p>
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <img src="assets/icons/Logo Kauniyah.jpeg" alt="" height=50 width=50 class="float left">
+            <h3>Kauniyah Living<span>.</span></h3>
+            <p>
+              Paradise Park 3 B11 <br>
+              Sepatan, Tangerang 15520<br>
+              Indonesia <br><br>
+              <strong>Phone:</strong> +62 877 3940 0331<br>
+              <strong>Email:</strong> hello.humie@kauniyahliving.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="portfolio.html">Portfolio</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="blog.html">Blog</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="contact.html">Contact Us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="aboutus.html">About Us</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Layanan Kami</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="portfolio.html">Essential Oil Package</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="portfolio.html">Hampers</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="portfolio.html">Wedding Souvernir</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Social Networks</h4>
+            <div class="social-links mt-3">
+              <a href="https://www.facebook.com" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="https://www.instagram.com/humiestore" class="instagram"><i class="bx bxl-instagram"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+<!-- Modal -->
+  <div class="modal fade" id="modalMore" tabindex="-1" role="dialog" aria-labelledby="modalMoreLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalMoreLabel">Promo Bulan ini</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <table>
+            <thead>
+              <tr>
+                <th>Kupon</th>
+                <th>Minimal Belanja</th>
+                <th>Expired</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>HUMIE0404</td>
+                <td>IDR 150K</td>
+                <td>30 April 2021</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
   </div>
 
   <!--Script-->
